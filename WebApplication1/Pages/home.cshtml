@@ -1,0 +1,75 @@
+﻿@page
+@model WebApplication1.Pages.homeModel
+@{
+
+}
+
+
+<h1 style="margin-top: 25px; margin-bottom: 25px; text-align: center; font-family: garamond;"><b>A história do chocolate</b></h1>
+
+	<div style="background-color: #d0c8c8; height:fit-content; border-radius: 10px 20px; width:fit-content;">
+		
+		<div style="margin-left: 20px; margin-right: 20px;">
+		<br />
+		O chocolate é um alimento derivado da amêndoa fermentada e torrada do cacau. Consumido no mundo inteiro, é importante componente da indústria alimentícia, além de ter papel fundamental na economia de vários países do globo. 
+		Sua árvore é o cacaueiro, planta típica de clima tropical, que encontra no Brasil um ambiente ideal para o seu cultivo, em especial nas regiões do Espírito Santo e o sul da Bahia, em Ilhéus. 
+		O Brasil é o maior produtor de chocolate da América Latina e um dos maiores do mundo ao lado da Costa do Marfim, Gana e Equador. Segundo cientistas, o lar original do cacau ficava nas florestas da região do rio Amazonas, 
+		ou na região do Orinoco, na Venezuela. Colombo teve a oportunidade de, durante sua quarta viagem à América, conhecer os grãos de cacau, mas não lhes deu atenção.
+		<br />
+		<br />
+		Os relatos dão conta de que os primeiros a consumir chocolate regularmente, por volta de 1500 a.C. foram os membros da civilização Olmeca, habitantes dos atuais México e Guatemala. 
+		Posteriormente, Maias e Astecas povos da mesma área, desenvolvem o costume de beber chocolate, produto considerado sagrado. As sementes eram torradas e misturadas a iguarias como por exemplo pimenta, 
+		uma base de milho fermentado e especiarias, resultando em um sabor bem diferente do que se conhece hoje. Nas cerimônias religiosas, o cacau torrado era servido com especiarias e mel.
+		<br />
+		<br />
+		É por meio do comércio realizado pelos conquistadores espanhóis que o chocolate chega à Europa, acabando por se difundir pelo mundo todo. No início, é considerado um alimento especial por 
+		seu valor nutricional e energético e somente mulheres, sacerdotes e nobres o consumiam em cultos da Igreja Católica. Por volta de 1700 as "Casas de Chocolate" começaram a competir com as "Casas de Café" em Londres.
+		<br />
+		<br />
+		Com a Revolução Industrial, a invenção de diversas máquinas torna possível a produção em massa, além de fazer com que os produtos ficassem mais baratos. O mesmo acontece com a indústria do chocolate. Gradualmente, 
+		o cacau vai se popularizando e se diversificando com a adição de outros ingredientes. Em 1828 o fabricante holandês Conrad van Houtten descobriu um método de extrair a gordura dos grãos de cacau moídos, 
+		e transformá-la em manteiga de cacau. O hábito de comer chocolate em pedaços só se tornaria popular 20 anos depois em 1847, quando uma firma inglesa, Fry and Sons, começou a produzir chocolate doce em barras para comer 
+		(e não apenas chocolate em pó para beber), misturando o cacau moído com manteiga de cacau e açúcar. Na Suíça finalmente surge a mistura consagrada de chocolate, leite e açúcar, dando origem ao chocolate como conhecido nos dias atuais.
+
+		</div>
+
+
+
+	<div class="slideshow-container">
+
+		  <!-- Full-width images with number and caption text -->
+		  <div class="mySlides fade">
+			<div class="numbertext">1 / 3</div>
+			<img src="~/img/começo.jpg" style="width:100%">
+			<div class="text">Representação da primeira receita de chocolate</div>
+		  </div>
+
+		  <div class="mySlides fade">
+			<div class="numbertext">2 / 3</div>
+			<img src="~/img/revolucao.jpg" style="width:100%">
+			<div class="text">Fabricação do chocolate na época de Revolução Industrial</div>
+		  </div>
+
+		  <div class="mySlides fade">
+			<div class="numbertext">3 / 3</div>
+			<img src="~/img/secagem.jpg" style="width:100%">
+			<div class="text">Assim é feita a secagem do cacau</div>
+		  </div>
+
+		  <!-- Next and previous buttons -->
+		  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+		</div>
+		<br>
+
+		<!-- The dots/circles -->
+		<div style="text-align:center">
+		  <span class="dot" onclick="currentSlide(1)"></span>
+		  <span class="dot" onclick="currentSlide(2)"></span>
+		  <span class="dot" onclick="currentSlide(3)"></span>
+		</div>
+
+	</div>
+	
+
+	

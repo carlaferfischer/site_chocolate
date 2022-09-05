@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - site_chocolate</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/site_chocolate.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header id="header"> 
+        <a id="logo" href="">Logo</a>
+        <nav id="nav">
+            <button id="btn-mobile">Menu
+                <span id="hamburger"></span>
+            </button>
+            <ul id="menu">
+                <li><a href="">Home</a></li>
+                <li><a href="">Melhores do mundo</a></li>
+                <li><a href="">Saúde</a></li>
+                <li><a href="">Receitas &#9660;</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+    <h1>Em primeiro lugar, o chocolate é praticamente um estilo de vida na França, originado em 1615 como um presente ao rei Luís XII de 14 anos, nunca mais saiu das casas dos franceses. E lá o que mais se destaca é o chocolate Valrhona – um dos melhores do mundo.
+
+Ele foi fundado em 1922 e produzido na pequena vila de Tain L’Hermitage pelo Chef Albéric Guironnet, que tinha uma ideia de “vinho parecido com chocolate”.
+
+Com grãos de cacau sendo comprados diretamente de plantações de primeira linha na América do Sul, Caribe e regiões do Pacífico, Valrhona é um dos melhores que a França tem a oferecer.</h1>
+    <footer>
+        
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
